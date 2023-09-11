@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +25,15 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    @apply font-poppins;
+}
+
+.btn-primary {
+  @apply bg-primary-green-2  text-white py-1 px-8 flex justify-center items-center rounded-md font-poppins;
+}
+.active-link {
+  @apply underline;
+}
+.active-link-footer{
+  @apply text-white
 }

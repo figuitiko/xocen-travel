@@ -1,0 +1,18 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "contactenos",
+    "blog": "blog"
+  },
+  "page": {
+    "home": {
+      "title": "Bienvenido a Xocen birding",
+      "description": "Xocen Birding web para observacion de aves en Yucatan, Mexico"
+    },
+    "about": {
+      "title": "Acerca De",
+      "description": "Esta es la pagina de about"
+    }
+  }
+}
